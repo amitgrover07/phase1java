@@ -42,10 +42,10 @@ public class FileAdder {
 			f.createNewFile();
 			success = true;
 			if (success) {
-				System.out.printf("Successfully created new file: " + f);
+				System.out.printf("Successfully created new file: " + f+"\n");
 
 			} else {
-				System.out.printf("Failed to create new file: " + f);
+				System.out.printf("Failed to create new file: " + f+"\n");
 			}
 		}
 
