@@ -10,14 +10,14 @@ public class DeleteFile {
 
 		Scanner reader = new Scanner(System.in);
 
-		System.out.println("Enter path of the File to be Deleleted");
-		String dir = reader.nextLine();
-		File file = new File(dir);
+		System.out.println("Enter path of the File to be Deleleted"); // asking the user to input the path of the file to be deleted
+		String dir = reader.nextLine(); // reading the input
+		File file = new File(dir); // passing the input string  to create a File  object
 
-		if (file.delete()) {
-			System.out.println("File deleted successfully");
+		if (file.delete()) { // calling the Delete method of the File Class
+			System.out.println("File deleted successfully"); // if true
 		} else {
-			System.out.println("Failed to delete the file");
+			System.out.println("Failed to delete the file"); // if false
 		}
 
 	}
