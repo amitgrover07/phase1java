@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 public class FileManager {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) //main method
+	{
 		System.out.println("\nWelcome to File Management System using Java, Developed by Amit Grover");
 
 		Scanner in = new Scanner(System.in);
